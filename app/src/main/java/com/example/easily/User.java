@@ -75,10 +75,10 @@ public class User implements Serializable{
     public void setMajor(String major) {
         this.major = major;
     }
-    @Override
-    public String toString() {
-        return "User [id=" + student_id + ", username=" + username + ", password="
-                + password + "student_name="+student_name+"student_num="+student_num+"gender="+gender+
-                "age="+age+"Institute="+Institute+"major="+major+"]";
-    }
+//    @Override
+//    public String toString() {
+////        return "User [id=" + student_id + ", username=" + username + ", password="
+////                + password + "student_name="+student_name+"student_num="+student_num+"gender="+gender+
+////                "age="+age+"Institute="+Institute+"major="+major+"]";
+////    }
 }
